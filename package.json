@@ -1,5 +1,5 @@
 {
-  "name": "pkg-name",
+  "name": "i-queue",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -7,12 +7,12 @@
   "author": "Deuscx",
   "license": "MIT",
   "funding": "https://github.com/sponsors/deuscx",
-  "homepage": "https://github.com/deuscx/pkg-name#readme",
+  "homepage": "https://github.com/deuscx/i-queue#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deuscx/pkg-name.git"
+    "url": "git+https://github.com/deuscx/i-queue.git"
   },
-  "bugs": "https://github.com/deuscx/pkg-name/issues",
+  "bugs": "https://github.com/deuscx/i-queue/issues",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
