@@ -5,7 +5,7 @@ export interface IdleQueueOptions {
 if (!window.requestIdleCallback) {
   window.requestIdleCallback = (cb: any, options: any) => {
     const start = Date.now()
-    return setTimeout(() => {
+    return window.setTimeout(() => {
       cb({
         didTimeout: false,
         timeRemaining: () => Math.max(0, 50 - (Date.now() - start)),
