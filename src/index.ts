@@ -1,4 +1,4 @@
-export interface IdleQueueOptions {
+export interface IdleSchedulerOptions {
   timeout?: number
 }
 
@@ -18,11 +18,11 @@ if (!window.requestIdleCallback) {
   }
 }
 
-export class IdleQueue {
+export class IdleScheduler {
   executingCallbacks = false
   idleId: number | null = null
 
-  constructor(public tasks: VoidFunction[] = [], public options: IdleQueueOptions = { timeout: 2000 }) {
+  constructor(public tasks: VoidFunction[] = [], public options: IdleSchedulerOptions = { timeout: 2000 }) {
   }
 
   add(task: VoidFunction) {
@@ -53,4 +53,4 @@ export class IdleQueue {
   }
 }
 
-export default IdleQueue
+export default IdleScheduler

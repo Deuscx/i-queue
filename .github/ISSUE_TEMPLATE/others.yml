@@ -1,6 +1,6 @@
 name: Others
 
-description: Create an issue for i-queue
+description: Create an issue for idle-scheduler
 
 body:
   - type: textarea
