@@ -50,11 +50,9 @@ queue.run()
 
 See the [open issues](https://github.com/deuscx/idle-scheduler/issues) for a full list of proposed features (and known issues).
 
-
 you can see the [playground](./playground) example
 
 https://github.com/Deuscx/idle-scheduler/assets/48537979/7984e261-16df-4f16-a58a-f77230f0894f
-
 
 <!-- LICENSE -->
 ## License
